@@ -1,0 +1,85 @@
+Created By: Ben Madarieta
+Period: 3A
+-------------------------------------------------------------------------------------------------
+compsci@compsci:~/AndroidStudioProjects$ git add BenMFirstAppAddition/
+compsci@compsci:~/AndroidStudioProjects$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   BenMFirstAppAddition/app/src/main/res/layout/activity_main.xml
+	modified:   BenMFirstAppAddition/app/src/main/res/values/colors.xml
+
+compsci@compsci:~/AndroidStudioProjects$ git commit -m "changed accent color"
+[master 425b593] changed accent color
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+compsci@compsci:~/AndroidStudioProjects$ git push origin master
+Username for 'https://github.com': BenM88
+Password for 'https://BenM88@github.com': 
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (11/11), 855 bytes | 855.00 KiB/s, done.
+Total 11 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), completed with 7 local objects.
+To https://github.com/BenM88/First-Android-Project.git
+   6164b0b..425b593  master -> master
+
+
+compsci@compsci:~/AndroidStudioProjects$ git log
+commit 425b5939de293819a119c115444036f30a8e0042 (HEAD -> master, origin/master)
+Author: BenM88 <benmadarieta@gmail.com>
+Date:   Fri Feb 22 11:56:48 2019 -0700
+
+    changed accent color
+
+commit 6164b0beb7a57d55f6fcf0a36aa3bb2590070c0e
+Author: BenM88 <benmadarieta@gmail.com>
+Date:   Wed Feb 20 12:07:56 2019 -0700
+
+    changed color
+
+commit 6d708505941e15cdb3cd432eb4c216d805fe25f7
+Author: BenM88 <benmadarieta@gmail.com>
+Date:   Wed Feb 20 12:00:54 2019 -0700
+
+    Changed background color to blue
+
+commit c86a70bec0e8eeeb89cba1286bed6ef924bdaab7
+Author: BenM88 <benmadarieta@gmail.com>
+Date:   Wed Feb 20 11:57:50 2019 -0700
+
+    Four function calculator
+:...skipping...
+commit 425b5939de293819a119c115444036f30a8e0042 (HEAD -> master, origin/master)
+Author: BenM88 <benmadarieta@gmail.com>
+Date:   Fri Feb 22 11:56:48 2019 -0700
+
+    changed accent color
+
+commit 6164b0beb7a57d55f6fcf0a36aa3bb2590070c0e
+Author: BenM88 <benmadarieta@gmail.com>
+Date:   Wed Feb 20 12:07:56 2019 -0700
+
+    changed color
+
+commit 6d708505941e15cdb3cd432eb4c216d805fe25f7
+Author: BenM88 <benmadarieta@gmail.com>
+Date:   Wed Feb 20 12:00:54 2019 -0700
+
+    Changed background color to blue
+
+commit c86a70bec0e8eeeb89cba1286bed6ef924bdaab7
+Author: BenM88 <benmadarieta@gmail.com>
+Date:   Wed Feb 20 11:57:50 2019 -0700
+
+    Four function calculator
+
+commit 828981344ca205e0602b8c002b6396814a9703cd
+Author: BenM88 <benmadarieta@gmail.com>
+Date:   Wed Feb 13 12:31:31 2019 -0700
+
+    Initial Commit
+
